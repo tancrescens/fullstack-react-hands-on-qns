@@ -25,9 +25,9 @@ function ColoredBox() {
         }}>
         </div>
 
-        <button>Red</button>
-        <button>Green</button>
-        <button>Blue</button>
+        <button onClick={()=>{setColor(1)}}>Red</button>
+        <button onClick={()=>{setColor(3)}}>Green</button>
+        <button onClick={()=>{setColor(2)}}>Blue</button>
     </React.Fragment>
   
 }
